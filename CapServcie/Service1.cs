@@ -7,6 +7,7 @@ using System.Linq;
 using System.ServiceProcess;
 using System.Text;
 using System.Threading.Tasks;
+using mfg_word_Dal;
 
 namespace CapServcie
 {
@@ -34,7 +35,11 @@ namespace CapServcie
         /// <param name="state"></param>
         private static void Docap(object state)
         {
-            throw new NotImplementedException();
+
+            string sql = string.Format("UPDATE   MomentFun  SET  Mark={0}  WHERE  id=1",DateTime.Now.ToString("yyyy-MM-dd HH:mm"));
+            DBHelper.ExecSql(sql);
+
+
         }
 
 
