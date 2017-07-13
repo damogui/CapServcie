@@ -1,13 +1,12 @@
-﻿using MySql.Data.MySqlClient;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
 using System.Data.Common;
 using System.Linq;
+using MySql.Data.MySqlClient;
 
-
-namespace mfg_word_Dal
+namespace CapServcie.SqlOption
 {
     public class DBHelper
     {

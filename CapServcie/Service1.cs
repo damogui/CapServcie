@@ -7,6 +7,7 @@ using System.Linq;
 using System.ServiceProcess;
 using System.Text;
 using System.Threading.Tasks;
+using CapServcie.SqlOption;
 using mfg_word_Dal;
 
 namespace CapServcie
